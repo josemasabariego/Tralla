@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="Solarizr.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Solarizr"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ScrollViewer>
+    <StackPanel Background="#FFFF66">
+        <Image Name="imgPaneles" Source="https://image.flaticon.com/icons/png/512/34/34736.png" Width="400" Margin="100,50"></Image>
+        <TextBlock Name="txtNombre" Text="Solarizr" HorizontalAlignment="Center" FontSize="60" FontFamily="Arial" FontWeight="Bold"></TextBlock>
+        <TextBox Name="txtUsuario" Width="250" Margin="30,30,30,0" PlaceholderText="Usuario"></TextBox>
+        <PasswordBox Name="pwbPasword" Width="250" RelativePanel.AlignHorizontalCenterWithPanel="True" Margin="20" PlaceholderText="Contraseña"></PasswordBox>
+        <Button Name="btnLogin" Content="Entrar" HorizontalAlignment="Center" FontFamily="Arial" FontWeight="Bold" Click="btnLogin_Click"></Button>
+
+
+    </StackPanel>
+    </ScrollViewer>
+</Page>

@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="Solarizr.Views.Candidatos"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Solarizr.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="#FFFF66">
+        <TextBlock Text="Candidatos" FontFamily="Arial" HorizontalAlignment="Center" Margin="0 20 0 0"></TextBlock>
+        <ListBox Margin="20 40 20 0">
+            <ListBoxItem Content="Tomás Turbado, C/ Finidi 25"></ListBoxItem>
+            <ListBoxItem Content="Benito Camela, C/ Oliveira 12"></ListBoxItem>
+            <ListBoxItem Content="Lola Mento, C/ Edu 10"></ListBoxItem>
+            <ListBoxItem Content="Paca Garte, C/ Joaquín 17"></ListBoxItem>
+            <ListBoxItem Content="..."></ListBoxItem>
+            <ListBoxItem Content="..."></ListBoxItem>
+            <ListBoxItem Content="..."></ListBoxItem>
+            <ListBoxItem Content="..."></ListBoxItem>
+            <ListBoxItem Content="..."></ListBoxItem>
+            <ListBoxItem Content="..."></ListBoxItem>
+            <ListBoxItem Content="..."></ListBoxItem>
+            <ListBoxItem Content="..."></ListBoxItem>
+        </ListBox>
+    </StackPanel>
+</Page>
